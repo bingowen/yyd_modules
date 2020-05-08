@@ -5,8 +5,7 @@
     "author": "bingo",
     "license": "MIT",
     "repository": "https://github.com/bingowen/yyd_modules.git",
-    "main": "lib/index.js",
-    "types": "lib/index.d.ts",
+    "main": "src/index.tsx",
     "scripts": {
         "build": "npm run build:lib && npm run build:dist && npm run build:css",
         "build:lib": "tsc",
