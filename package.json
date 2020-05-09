@@ -59,6 +59,6 @@
         "ie >= 9"
     ],
     "publishConfig": {
-        "registry": ""
+        "registry": "https://github.com/bingowen/yyd_modules.git"
     }
 }
