@@ -69,6 +69,7 @@ import FileLoad from './yyd/FileLoad'
 import ImagePicker from './yyd/ImagePicker'
 import ImageLoad from './yyd/ImageLoad'
 import Editor from './yyd/Editor'
+import IconFile from './yyd/IconFile'
 
 
 
@@ -81,4 +82,5 @@ export {
     ImagePicker,
     ImageLoad,
     Editor,
+    IconFile
 };

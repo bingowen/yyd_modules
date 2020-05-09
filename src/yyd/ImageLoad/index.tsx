@@ -1,6 +1,6 @@
 import React, { Fragment, useState, useRef } from 'react';
 import TweenOne from 'rc-tween-one';
-import { Spin } from '@/yyd_modules';
+import { Spin } from '../../';
 
 interface ImageLoadProps {
   imgSrc: string;

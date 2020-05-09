@@ -1,9 +1,9 @@
 import React from 'react';
-import IconFile from '@/yyd_modules/IconFile';
 
+//@ts-ignore
 import { UploadFilesEntity } from '@/models/filePicker';
 
-import { FormatTime, FormatFileSize } from '@/yyd_modules';
+import { FormatTime, FormatFileSize, IconFile } from '../../index';
 
 interface FileLoadProps {
   fileItem: UploadFilesEntity

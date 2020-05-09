@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import { Button, List, Card, FileLoad } from '@/yyd_modules';
+import { Button, List, Card, FileLoad } from '../../';
+//@ts-ignore
 import Pager from '@/components/Pager';
 import { connect } from 'dva';
+//@ts-ignore
 import { UploadFilesEntity, ComponentProps, ComponentState } from '@/models/yyd/imagePicker';
+import { PlusOutlined } from '../../Icon'
 
 
-import {
-  PlusOutlined,
-} from '@/yyd_modules/Icon';
 
 import UploadForm from './uploadForm';
 import { router } from 'umi';

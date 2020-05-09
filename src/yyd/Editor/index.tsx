@@ -3,7 +3,7 @@ import 'braft-editor/dist/index.css'
 import React, { Component, RefObject } from 'react';
 import BraftEditor from 'braft-editor'
 import { PictureOutlined, FileZipOutlined } from '@ant-design/icons';
-import { Drawer, ImagePicker, FilePicker } from '@/yyd_modules';
+import { Drawer, ImagePicker, FilePicker } from '../../';
 //@ts-ignore：忽略语法检查
 import { ContentUtils } from 'braft-utils'
 // import { FormInstance } from 'antd/lib/form';

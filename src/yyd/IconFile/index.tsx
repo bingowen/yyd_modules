@@ -1,5 +1,5 @@
 import React from 'react';
-import { Excel, Word, PowerPoint, Zip, Html, Unknow, Image, Pdf, Video } from '@/yyd_modules/Icon';
+import { Excel, Word, PowerPoint, Zip, Html, Unknow, Image, Pdf, Video } from '../Icon';
 
 interface ComponentProps {
     fileExtendName?: string;

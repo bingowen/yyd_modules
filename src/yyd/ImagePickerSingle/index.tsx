@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import { Row, Col, Drawer, ImagePicker } from '@/yyd_modules';
+import { Row, Col, Drawer, ImagePicker } from '../../';
 import TweenOne from 'rc-tween-one';
 import Zmage from 'react-zmage'
+//@ts-ignore
 import { ZmageBackgroud } from '@/models/global'
 
 import {
@@ -9,10 +10,11 @@ import {
     DeleteOutlined,
     PlusCircleOutlined,
     PlusOutlined
-} from '@/yyd_modules/Icon';
+} from '../../Icon';
 
 var TweenOneGroup = TweenOne.TweenOneGroup;
 
+//@ts-ignore
 import styles from './style.less';
 
 interface ComponentProps {

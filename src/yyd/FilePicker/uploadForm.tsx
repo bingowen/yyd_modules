@@ -3,13 +3,14 @@
 //@ts-nocheck
 //#region import 组件、插件等
 
-import { Button, Modal, Skeleton, Upload } from '@/yyd_modules';
-import { InboxOutlined } from '@/yyd_modules/Icon';
+import { Button, Modal, Skeleton, Upload } from '../../';
+import { InboxOutlined } from '../../';
 
 import { Form } from 'antd';
 import { connect } from 'dva';
 import React, { Component } from 'react';
 import { FormInstance } from 'antd/lib/form';
+//@ts-ignore
 import { ComponentProps, ComponentState } from '@/models/filePicker';
 const { Dragger } = Upload;
 import { errorMessage, successMessage } from '@/utils/utils';
